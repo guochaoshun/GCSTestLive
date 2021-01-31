@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'GCSTestLive_Example' do
+  pod 'GCSTestLive', :path => '../'
+
+  target 'GCSTestLive_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
