@@ -7,6 +7,7 @@
 //
 
 #import "GCSViewController.h"
+#import <GCSTestLive/UIView+GCSFrame.h>
 
 @interface GCSViewController ()
 
@@ -17,13 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    self.view.x = 100;
+
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

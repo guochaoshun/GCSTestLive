@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GCSTestLive (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GCSTestLive (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  GCSTestLive:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GCSTestLive: 4aeeb572a6fa74afbcfbbc56aafc6d65864521a5
+
+PODFILE CHECKSUM: 90931a3f009d6f5f888d0529da671f069387d177
+
+COCOAPODS: 1.9.3
